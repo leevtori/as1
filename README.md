@@ -1,0 +1,15 @@
+# as1
+
+This Habit-Tracker will add and delete Habits
+
+https://www.youtube.com/watch?v=-QyJETQwXIk&feature=youtu.be
+
+Copyright (C) 2016 Victoria Lee vlee2@ualberta.ca
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

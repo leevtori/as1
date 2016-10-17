@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">vlee2-HabitTracker</string>
+    <string name="add">ADD</string>
+    <string name="delete">Press and hold to delete</string>
+    <string name="history">HISTOY LOG</string>
+    <string name="todayHabits">CURRENT HABITS</string>
+    <string name="add_Habit">ADD A NEW HABIT</string>
+    <string name="sunday">SUNDAY</string>
+    <string name="monday">MONDAY</string>
+    <string name="tuesday">TUESDAY</string>
+    <string name="wednesday">WEDNESDAY</string>
+    <string name="thursday">THURSDAY</string>
+    <string name="friday">FRIDAY</string>
+    <string name="saturday">SATURDAY</string>
+    <string name="cancel">CANCEL</string>
+    <string name="log">HABIT LOG</string>
+    <string name="add_addPage">ADD</string>
+    <string name="addHabitDate">Date:</string>
+
+
+</resources>

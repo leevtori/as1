@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_addPage"
+        android:id="@+id/add_addPage"
+        android:onClick="add_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/add_Habit"
+        android:text="@string/add_Habit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/cancel"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/add"
+        android:onClick="backPage"
+        android:layout_alignTop="@+id/add_addPage"
+        android:layout_alignParentBottom="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addNewHabitText"
+        android:hint="Enter a new Habit"
+        android:layout_below="@+id/add_Habit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:id="@+id/addHabitDate"
+        android:layout_below="@+id/addNewHabitText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/sunday"
+        android:textOff="@string/sunday"
+        android:id="@+id/sunday"
+        android:layout_below="@+id/addHabitDate"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/add_addPage"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/monday"
+        android:textOff="@string/monday"
+        android:id="@+id/monday"
+        android:layout_below="@+id/sunday"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/tuesday"
+        android:textOff="@string/tuesday"
+        android:id="@+id/tuesday"
+        android:layout_below="@+id/monday"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/wednesday"
+        android:textOff="@string/wednesday"
+        android:id="@+id/wednesday"
+        android:layout_below="@+id/tuesday"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/add_addPage"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/thursday"
+        android:textOff="@string/thursday"
+        android:id="@+id/thursday"
+        android:layout_below="@+id/wednesday"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/friday"
+        android:textOff="@string/friday"
+        android:id="@+id/friday"
+        android:layout_below="@+id/thursday"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/add_addPage"
+        android:checked="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/saturday"
+        android:textOff="@string/saturday"
+        android:id="@+id/saturday"
+        android:layout_below="@+id/friday"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/add_addPage"
+        android:checked="false" />
+
+
+</RelativeLayout>
